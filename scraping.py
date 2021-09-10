@@ -157,5 +157,4 @@ elif job == '' and location == '':
     print("Enter the data for your search (-job job, -location location)")
     print()
 elif job or location:
-
     main(job, location)
