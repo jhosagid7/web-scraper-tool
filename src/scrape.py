@@ -4,6 +4,8 @@ from datetime import datetime
 import pandas as pd
 import argparse
 
+possible_sites = ["indeed", "monster", "linkedin"]
+
 ########################################################################################################
 """
 Scrapes job postings from indeed, optionally by job and location.
